@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Harsh_Mern/static/css/main.1fa85c11.css",
+    "main.js": "/Harsh_Mern/static/js/main.d32420d1.js",
+    "static/js/453.79170652.chunk.js": "/Harsh_Mern/static/js/453.79170652.chunk.js",
+    "static/media/dev.gif": "/Harsh_Mern/static/media/dev.209d9e9baa7798d4b4ab.gif",
+    "index.html": "/Harsh_Mern/index.html",
+    "main.1fa85c11.css.map": "/Harsh_Mern/static/css/main.1fa85c11.css.map",
+    "main.d32420d1.js.map": "/Harsh_Mern/static/js/main.d32420d1.js.map",
+    "453.79170652.chunk.js.map": "/Harsh_Mern/static/js/453.79170652.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fa85c11.css",
+    "static/js/main.d32420d1.js"
+  ]
+}
