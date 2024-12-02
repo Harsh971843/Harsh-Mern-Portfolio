@@ -1,13 +1,13 @@
 import React from 'react'
 import Sectiontitle from '../../components/Sectiontitle';
 import myGif from 'E:/Harsh_Portfolio/harshportfolio/src/files/dev.gif';
-import { useSelector } from 'react-redux';
+// import { useSelector } from 'react-redux';
 
 function About() {
-  const {portfoliodata} = useSelector((state) => state.root);
-  const {about} = portfoliodata;
-  const{description,skills} = about;
-  // const skills= ["HTML","CSS","JAVASCRIPT","REACTJS","NODEJS","MONGODB","MYSQL","JAVA","PYTHON"];
+  // const {portfoliodata} = useSelector((state) => state.root);
+  // const {about} = portfoliodata;
+  // const{description,skills} = about;
+  const skills= ["HTML","CSS","JAVASCRIPT","REACTJS","NODEJS","MONGODB","MYSQL","JAVA","PYTHON"];
   return (
     <div>
      <Sectiontitle title = "About"/>
@@ -16,8 +16,8 @@ function About() {
         <img src={myGif} alt="Animation" />
        </div>
        <div className='flex flex-col gap-5'>
-        <p className='text-white sm:text-xl'>{description || ''}</p>
-        {/* <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fuga dolorum a rec Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut maiores architecto amet optio corporis odio eligendi, aperiam voluptatum veniam officiis!</p> */}
+        {/* <p className='text-white sm:text-xl'></p> */}
+        <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fuga dolorum a rec Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut maiores architecto amet optio corporis odio eligendi, aperiam voluptatum veniam officiis!</p>
        </div>  
       </div> 
       <div className='py-1 flex flex-col sm:py-20'>
