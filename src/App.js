@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="Harsh-Mern-Portfolio">
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/Admin" element={<Admin />} /> */}
