@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 // import { useEffect } from 'react';
@@ -36,12 +36,12 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="Harsh-Mern-Portfolio">
+      <HashRouter basename="Harsh-Mern-Portfolio">
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/Admin" element={<Admin />} /> */}
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
